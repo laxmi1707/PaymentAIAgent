@@ -8,6 +8,9 @@ install dependecies using requirements.txt
 setup your virtual envirnment 
 - python -v venv venv
 
+# Follow these link to setup Google API permissions 
+Link https://vijaykumarkartha.medium.com/create-your-personal-gmail-ai-agent-using-langchain-da95d1a9171a
+https://medium.com/@elin.fritiofsson/create-a-simple-ai-agent-for-gmail-596d92dc7778
 
 #In case any new package to be added
 install it in use local using 
