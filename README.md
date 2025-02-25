@@ -22,3 +22,53 @@ Dont checkin your virtual env
 #This Project uses Payman ai to create a demo wallet and explores the use of agents to transfer money on behalf of user
 # Enhacement - the Agent will read gmail email to find invoice from last 10 days from requesters like 
 singtel , senoko, trust  for the montly bills 
+
+
+ Paychain 🔗💰
+
+Build AI agents that can send real money using natural language with LangChain and Payman. Paychain combines the power of LLMs with Payman's secure payment infrastructure to enable conversational financial transactions.
+
+## Why Paychain?
+
+- 🤖 **Natural Language Payments**: Let AI agents process payments through simple conversations
+- 🔒 **Built on Payman**: Leverage Payman's enterprise-grade payment infrastructure
+- 🚀 **Quick Integration**: Get started in minutes with our Python SDK
+- 💡 **Flexible Tools**: Rich set of Payman payment operations including sending, requesting, and managing payees
+- 🛠️ **Built with LangChain**: Leverage the power of the LangChain ecosystem
+
+## Quick Start 🚀
+
+1. Get your API keys:
+   - Go to [app.paymanai.com](https://app.paymanai.com) to get your Payman API key
+   - Sign up takes just a few seconds and lets you send real money with Payman
+   - Get your OpenAI API key from [platform.openai.com](https://platform.openai.com)
+
+2. Clone the repository:
+```bash
+git clone <repository-url>
+cd paychain-examples
+```
+
+3. Create and activate virtual environment:
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
+```
+
+4. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+5. Create a `.env` file in the root directory:
+```env
+PAYMAN_API_SECRET=your_payman_api_secret  # From app.paymanai.com
+OPENAI_API_KEY=your_openai_api_key
+PAYMAN_ENVIRONMENT=sandbox  # or production
+
+6. Create a credentials.json in examples folder
+Download the credentials file from gmail for API Oauth Credentials
+Link https://vijaykumarkartha.medium.com/create-your-personal-gmail-ai-agent-using-langchain-da95d1a9171a
+https://medium.com/@elin.fritiofsson/create-a-simple-ai-agent-for-gmail-596d92dc7778
+
+```
