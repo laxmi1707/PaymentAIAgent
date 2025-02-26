@@ -1,5 +1,8 @@
 # PaymentAIAgent
 This explores the use of Agents for payments . It uses PaymanAI , and langchain tool 
+Then there is an gmail agent which tries to connect to your gmail account provided the keys which you have created in your gmail.
+This is a test app.
+Step to create your gmail project and api keys is provided in link below.
 
 # How to clone and use
 -git clone usegithubhttps url
