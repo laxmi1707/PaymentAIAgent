@@ -1,3 +1,6 @@
+#This Project explores use of gmail agents and  Payman ai to create a demo wallet and explores the use of agents to transfer money on behalf of 
+user singtel , senoko, trust  for the montly bills .It can read your gmail for utlity bills for last 2 months and tries to help you by putting a approval request for transfer money.
+
 # PaymentAIAgent
 This explores the use of Agents for payments . It uses PaymanAI , and langchain tool 
 Then there is an gmail agent which tries to connect to your gmail account provided the keys which you have created in your gmail.
@@ -6,13 +9,13 @@ Step to create your gmail project and api keys is provided in link below.
 
 # How to clone and use
 -git clone usegithubhttps url
-install dependecies using requirements.txt 
+# install dependecies using requirements.txt 
 - python -m install requirements.txt
-setup your virtual envirnment for python 3.3 above
+# setup your virtual envirnment for python 3.3 above
 - python -v venv myenv
- Onmac os or linux
+# Onmac os or linux
 - source myenv/bin/activate
-Activate the virtual env created
+# Activate the virtual env created
 -  myenv\Scripts\activate
 
 -  
@@ -30,12 +33,16 @@ then check in the requirements .txt
 - git push
 Dont checkin your virtual env 
 
-#This Project uses Payman ai to create a demo wallet and explores the use of agents to transfer money on behalf of user
-# Enhacement - the Agent will read gmail email to find invoice from last 10 days from requesters like 
-singtel , senoko, trust  for the montly bills 
 
 
- Paychain 🔗💰
+# Gmail 
+Google toolkit for read , search inbox emails
+The Agent will read your gmail to find invoice from last 2 months from requesters like singtel , senoko etc and provide a list. 
+It can read the amount due in email
+# Next Step with help of Paychain as explained below , it will search for those utility providers in your Payee list, if present it will try to transfer the amount with some invoice id and queue its approval request.
+If there is already a approval request in queue or already transfered the same amount with same invoice id , it will not put up the request again.
+
+# Paychain 🔗💰
 
 Build AI agents that can send real money using natural language with LangChain and Payman. Paychain combines the power of LLMs with Payman's secure payment infrastructure to enable conversational financial transactions.
 
